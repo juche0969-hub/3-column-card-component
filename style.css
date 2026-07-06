@@ -1,0 +1,35 @@
+.card {
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+.sedan {
+  background-color: #ff8c42;
+}
+.suv {
+  background-color: #4a7c59;
+}
+.luxury {
+  background-color: #1a3c2e;
+}.pricing-grid-container {
+  display: flex;
+}
+.btn {
+  display: inline-block;
+  background-color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #1a3c2e;
+  font-weight: bold; 
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .pricing-grid-container {
+flex-direction: column;
+  }
+}
+.btn:hover {
+  background-color: #1a3c2e;
+  color: white;
+}
